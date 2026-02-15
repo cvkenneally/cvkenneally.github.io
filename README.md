@@ -32,6 +32,8 @@ The site is deployed automatically when you push to `main` using GitHub Actions.
 
 After the workflow runs, the site is available at **https://cvkenneally.github.io**.
 
+**If the live page is blank:** GitHub is probably serving the repo source instead of the built site. In **Settings → Pages**, set **Source** to **GitHub Actions** (not "Deploy from a branch"). The workflow builds the app and uploads the `dist/` folder; only that artifact should be used for the site.
+
 ## Editing resume content
 
 Update `src/data/resume.js` to change your name, contact info, experience, education, and skills. The rest of the site will reflect those changes.
