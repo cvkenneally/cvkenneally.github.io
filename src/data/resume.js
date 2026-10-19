@@ -3,7 +3,7 @@ export const resume = {
   title: 'Data Scientist',
   email: 'cvkenneally97@gmail.com',
   phone: '(330) 506-9005',
-  location: 'Winter Haven, FL',
+  location: 'Wellington, FL',
 
   work: [
     {
